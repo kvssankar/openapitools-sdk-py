@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reacter-openapitools"
+version = "0.1.1"
+description = "Python package for openapitools"
+readme = "README.md"
+authors = [
+    {name = "Sankar kvs", email = "openapitools@gmail.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.8"
+
+[project.urls]
+"Homepage" = "https://github.com/kvssankar/openapitools-sdk-py"
+"Bug Tracker" = "https://github.com/kvssankar/openapitools-sdk-py/issues"
+"Documentation" = "https://docs.openapitools.com"

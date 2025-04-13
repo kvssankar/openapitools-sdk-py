@@ -1,0 +1,36 @@
+[
+  {
+    "name": "GenerateOtpTool",
+    "production_version_name": "python-sdk",
+    "versions": {
+      "python-sdk": {
+        "description": "Generates a one-time password for user authentication via phone number",
+        "input_schema": {
+          "type": "object",
+          "required": ["phoneNumber"],
+          "properties": {
+            "phoneNumber": {
+              "type": "number",
+              "description": "User's phone number to receive OTP"
+            }
+          }
+        },
+        "script_type": "python"
+      },
+      "initial": {
+        "description": "Generates a one-time password for user authentication via phone number",
+        "input_schema": {
+          "type": "object",
+          "required": ["phoneNumber"],
+          "properties": {
+            "phoneNumber": {
+              "type": "number",
+              "description": "User's phone number to receive OTP"
+            }
+          }
+        },
+        "script_type": "bash"
+      }
+    }
+  }
+]
